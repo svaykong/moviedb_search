@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'MovieDB Search',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
               ),
         ),
       ),
-      home: const SearchScreen(),
+      home: const IndexScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
